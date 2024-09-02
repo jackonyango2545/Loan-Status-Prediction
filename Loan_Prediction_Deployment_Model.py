@@ -26,7 +26,7 @@ st.markdown(
 )
 
 st.markdown("<b><u><center>LOAN STATUS PREDICTION</center></u></b>",unsafe_allow_html=True)
-
+st.markdown("This project is intended for learning Purposes")
 @st.cache_resource
 def data():
     url = "https://github.com/jackonyango2545/Loan-Status-Prediction/raw/main/loan_approval_dataset.csv"
